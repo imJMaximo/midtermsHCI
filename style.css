@@ -17,97 +17,111 @@ img{
 }
 
 .signup-box{
-	position: relative;
+  position: relative;
 }
 
 .box{
-	position: relative;
-	top: 80px;
-	width: 530px;
-	height: 480px;
-	margin: 0 auto;
-	background-color: violet;
-    border: 2px solid black;
+  position: relative;
+  top: 80px;
+  width: 530px;
+  height: 490px;
+  margin: 0 auto;
+  background-color: violet;
+  border: 2px solid black;
 }
 
 form{
-	padding: 20px;
-	margin: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .sign-title{
-	position: relative;
-	font-size: 50px;
-	text-align: center;
-	font-family: 'Oswald';
-	font color: #E656E8;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald';
+  font color: #E656E8;
 }
 
 .names{
-	float:left;
+  float:left;
 }
 
-.gendate{
-	position: relative;
-	left: 100px;
+.genDate{
+  position: relative;
+  left: 100px;
 }
 
 .account{
-	float: left;
+  float: left;
 }
+
 .button{
-	position: relative;
-    left: 100px;
- }
-
- .login-title{
-	position: relative;
-	font-size: 50px;
-	text-align: center;
-	font-family: 'Oswald', cursive;
-	font color: #E656E8;
+  position: relative;
+  left: 100px;
 }
 
-.login{
-	position: center;
+.up{
+  position: relative;
+  left:270px;
+  background-color: #F3C9FF;
+  color:black;
+  height: 40px;
+  width: 80px;
+  margin: 10px; 
+  font-family: "Arial";
+  font-weight: 800;
+  cursor: pointer;
+  text-align: center;
 }
-.login-box{
-	position: relative;
-	top: 80px;
-	width: 300px;
-	height: 380px;
-	margin: 0 auto;
-	background-color: violet;
-    border: 2px solid black;
-}
+
 .login-title{
-	position: relative;
-	font-size: 50px;
-	text-align: center;
-	font-family: 'Oswald';
-	font color: #E656E8;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', cursive;
+  font color: #E656E8;
 }
+
+.login-box{
+  position: relative;
+  top: 130px;
+  width: 240px;
+  height: 380px;
+  margin: 0 auto;
+  background-color: violet;
+  border: 2px solid black;
+}
+
+.login-title{
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald';
+  font color: #E656E8;
+}
+
 .login{
-	position: relative;
-	left:150px;
-    background-color: #F3C9FF;
-    color:black;
-  	height: 40px;
-  	width: 80px;
-  	margin: 10px;	
-    font-family: "Arial";
-    font-weight: 800;
-    cursor: pointer;
-    text-align: center;
- 	
-  }
-  .login:hover{
-    background-color: #E89990;
-    color: white;
-    border: 5px solid black;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    animation: bounce .6s;
+  position: relative;
+  left:50px;
+  background-color: #F3C9FF;
+  color:black;
+  height: 40px;
+  width: 80px;
+  margin: 10px; 
+  font-family: "Arial";
+  font-weight: 800;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login:hover{
+  background-color: #E89990;
+  color: white;
+  border: 5px solid black;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  animation: bounce .6s;
 }
 
 
